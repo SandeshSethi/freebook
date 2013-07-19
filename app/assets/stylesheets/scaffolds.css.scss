@@ -1,3 +1,19 @@
+@import 'bootstrap';
+
+body{
+  padding-top:60px;
+}
+
+@import 'bootstrap-responsive';
+
+.brand{
+  color: #000;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255,255,255,.125);
+  transition: all .2s linear;
+}
+
+/*
 body {
   background-color: #fff;
   color: #333;
@@ -67,3 +83,4 @@ div {
     list-style: square;
   }
 }
+*/
